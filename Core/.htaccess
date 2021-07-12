@@ -1,0 +1,5 @@
+#Order		deny,allow
+#Deny from	all
+
+AddType		application/x-httpd-php-source .php
+AddType		application/x-httpd-php-source .phps

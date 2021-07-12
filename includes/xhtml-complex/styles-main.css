@@ -1,0 +1,98 @@
+/**
+ *
+ * Common styles
+ *
+ */
+body	{
+	background-color: #fff;
+	margin: 0;
+	padding: 10px;
+}
+
+form	{
+	border: 1px solid #39c;
+	float: left;
+	padding: 10px;
+/*
+	position: fixed;
+*/
+	margin: 0;
+	top: 72px;
+	width: 150px;
+}
+
+.dump	{
+	margin-left: 450px;
+}
+.dumpHeader	{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+pre,
+div.pre	{
+/*
+	background-color: #eee;
+*/
+	border: 1px solid #39c;
+	margin-bottom: 5px;
+	margin-left: 450px;
+	padding: 5px;
+}
+
+code	{
+	background-color: #eee;
+	border: 1px solid #39c;
+	display: block;
+	padding: 5px;
+}
+
+/**
+ *
+ * Menu styles
+ *
+ */
+#menu	{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	margin: 0 0 20px 0;
+}
+
+#menu ul	{
+	border-bottom: 1px solid #39c;
+	border-top: 1px solid #39c;
+	list-style: none;
+	margin: 0;
+	padding: 9px 0;
+}
+
+#menu ul li	{
+	display: inline;
+	margin-right: -4px;
+	padding: 0;
+}
+
+#menu ul li a	{
+	color: #39c;
+	font-size: 95%;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 8px 10px 8px !important;
+	text-decoration: none;
+}
+
+#menu ul li a:hover	{
+	background-color: #39c;
+	color: #fff;
+	text-decoration: underline;
+}
+
+#menu ul li a.unlist	{
+	color: #990000;
+}
+
+#menu ul li a.unlist:hover	{
+	background-color: #990000;
+	color: #fff;
+}
+

@@ -1,0 +1,159 @@
+/**
+ *
+ * Common styles
+ *
+ */
+body	{
+	background-color: #fff;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 10px;
+}
+a {
+	color: #003300;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#copyright {
+	border-bottom: 1px solid #39c;
+	font-family: Verdana;
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+}
+
+/**
+ *
+ * Menu styles
+ *
+ */
+#menu	{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-align: right;
+}
+
+#menu ul	{
+	border-bottom: 1px solid #39c;
+	border-top: 1px solid #39c;
+	list-style: none;
+	margin: 0;
+	padding: 9px 0;
+}
+
+#menu ul li	{
+	display: inline;
+	margin-right: -4px;
+	padding: 0;
+}
+
+#menu ul li a	{
+	color: #39c;
+	font-size: 95%;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 8px 10px 8px !important;
+	text-decoration: none;
+}
+
+#menu ul li a:hover	{
+	background-color: #39c;
+	color: #fff;
+	text-decoration: underline;
+}
+
+/**
+ *
+ * Message list styles
+ */
+.message	{
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 270px;
+}
+
+.message ul	{
+	list-style-type: square;
+}
+
+/**
+ *
+ * Login form styles
+ *
+ */
+.loginForm	{
+	border: 1px solid #39c;
+	float: left;
+	padding: 10px;
+	margin: 0;
+	text-align: right;
+	top: 72px;
+	width: 200px;
+}
+
+.loginForm label	{
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+}
+
+.loginTextbox	{
+	border: 1px solid #000;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	width: 60%;
+}
+
+.loginButton {
+	border: 1px solid #000;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 61% !important;
+	width: 62%;
+}
+
+/**
+ *
+ * MMS form styles
+ *
+ */
+.mmsForm	{
+	border: 1px solid #39c;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 250px;
+}
+
+.mmsForm fieldset	{
+	border: 1px solid #39c;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.mmsForm fieldset legend	{
+	color: #39c;
+	font-weight: bold;
+}
+
+.mmsForm .button	{
+	background-color: #39c;
+	border: 1px solid #39c;
+	font-weight: bold;
+	margin-top: 2px;
+	padding: 10px;
+}
+.mmsForm .button[class="button"]	{
+	margin: 2px !important;
+	margin: 0;
+}

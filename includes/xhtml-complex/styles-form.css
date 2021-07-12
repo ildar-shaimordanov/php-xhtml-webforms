@@ -1,0 +1,208 @@
+/**
+ *
+ * Login form styles
+ *
+ */
+.loginForm	{
+	border: 1px solid #39c;
+	top: 72px;
+	width: 160px;
+}
+
+.loginForm label	{
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.loginButton {
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100px;
+}
+
+/**
+ *
+ * Guestbook form styles
+ *
+ */
+.guestbookForm	{
+	border: 1px solid #39c;
+	text-align: right;
+	width: 300px;
+}
+
+.guestbookForm label	{
+	color: #39c;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.guestbookTextbox	{
+	border: 1px solid #39c;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	width: 70%;
+}
+
+textarea.guestbookTextbox	{
+	height: 100px;
+}
+
+.guestbookButton {
+	background-color: #39c;
+	border: 1px solid #39c;
+	color: #fff;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100px;
+}
+
+/**
+ *
+ * Search form styles
+ *
+ */
+.searchForm	{
+	border: 1px solid #009900;
+	width: 200px;
+}
+
+.searchTextbox	{
+	border: 1px solid #009900;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	width: 65%;
+}
+
+.searchButton {
+	background-color: #009900;
+	border: 1px solid #009900;
+	color: #fff;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 30%;
+}
+
+/**
+ *
+ * Upload form styles
+ *
+ */
+.uploadForm	{
+	background-color: #ccc;
+	border: 2px outset #ccc;
+	text-align: right;
+	width: 300px;
+}
+
+.uploadForm label	{
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+.uploadTextbox	{
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	width: 70%;
+}
+
+textarea.uploadTextbox	{
+	height: 100px;
+	width: 69%;
+}
+
+.uploadButton {
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+	width: 100px;
+}
+
+/**
+ *
+ * Eigenvalue form styles
+ *
+ */
+.eigenvalueForm	{
+	width: 410px;
+}
+
+.eigenvalueForm label	{
+	display: block;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+}
+
+.eigenvalueForm select	{
+	width: 100%;
+}
+
+/**
+ *
+ * Spinbutton form styles
+ *
+ */
+.spinbuttonForm	{
+	width: 410px;
+}
+.spinbuttonForm div.spinbutton_frame	{
+	float: left;
+}
+.spinbuttonForm div.spinbutton_frame input.spinbuttonvalue	{
+	width: 64px;
+}
+.spinbuttonForm div.spinbutton_frame,
+.spinbuttonForm select	{
+	width: 80px;
+}
+
+/**
+ *
+ * Listbox form styles
+ *
+ */
+.listboxForm	{
+	border: 1px solid #000;
+	width: 240px;
+}
+
+.listboxForm div	{
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+	padding: 10px 0 0 0;
+}
+
+.listboxForm fieldset legend	{
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+}
+
+.listboxForm label	{
+	display: inline-block;
+	font-family: Verdana, Tahoma, 'Courier New', sans-serif;
+	font-size: 11px;
+	width: 200px;
+}
+
+form[class="listboxForm"] fieldset label	{
+	float: right;
+	width: 190px !important;
+}
+form[class="listboxForm"] input[type="radio"],
+form[class="listboxForm"] input[type="checkbox"]	{
+	clear: both;
+	float: left;
+}
+
+.listboxForm select	{
+	width: 100%;
+}
+

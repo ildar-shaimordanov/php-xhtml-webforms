@@ -1,0 +1,10 @@
+Options	+Indexes
+
+AddType		application/x-httpd-php-source .php
+AddType		application/x-httpd-php-source .phps
+
+<FilesMatch	"\.(js|css|gif|jpg|jpeg|png|ico)$">
+	Order		deny,allow
+	Allow from	all
+</FilesMatch>
+
